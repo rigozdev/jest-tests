@@ -1,0 +1,22 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon . ",
+    "test": "jest --forceExit",
+    "test-exit": "node --experimental-vm-modules node_modules/jest/bin/jest.js --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
